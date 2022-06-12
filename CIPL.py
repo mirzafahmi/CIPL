@@ -69,12 +69,5 @@ for details in customerDetails:
 
     work_sheets_PL.ExportAsFixedFormat(0, f'C:\\users\\USER\\desktop\\website\\python\\CIPL\\{plNo}.pdf')
     print(f"{plNo}({customerNames}) has been succesfully saved as PDF")
-    
+
     sheets.Close(True)
-
-    
-
-  
-
-
-  
